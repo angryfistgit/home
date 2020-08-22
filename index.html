@@ -143,6 +143,8 @@ Error message and password prompt
 
 <li>__init__.py</li>
 
+<li>.gitignore</li>
+
 <li>/etc/passwd</li>
 
 <li>/etc/profile, /etc/bashrc, ~/.bash_profile, ~/.bashrc, ~/.bash_logout</li>
@@ -239,6 +241,8 @@ Error message and password prompt
 
 <li>$:/state/toc/TableOfContents-Git--118161433</li>
 
+<li>$:/state/toc/TableOfContents-git--118161433</li>
+
 <li>$:/state/toc/TableOfContents-HTTP--118161433</li>
 
 <li>$:/state/toc/TableOfContents-ITRS Geneos--118161433</li>
@@ -307,7 +311,15 @@ Error message and password prompt
 
 <li>$:/state/toc/TableOfContents/ELK/Logstash-Logstash Output Plugins--118161433</li>
 
+<li>$:/state/toc/TableOfContents/Git-8. git branch--118161433</li>
+
 <li>$:/state/toc/TableOfContents/Git-Git 分支--118161433</li>
+
+<li>$:/state/toc/TableOfContents/git-git 学习--118161433</li>
+
+<li>$:/state/toc/TableOfContents/Git-git branch--118161433</li>
+
+<li>$:/state/toc/TableOfContents/git-git branch--118161433</li>
 
 <li>$:/state/toc/TableOfContents/ITRS Geneos-Geneos License--118161433</li>
 
@@ -641,8 +653,6 @@ Error message and password prompt
 
 <li>1. 数字 int, float, complex</li>
 
-<li>1. Git 基础配置</li>
-
 <li>1. PowerShell - 运算符与表达式</li>
 
 <li>1. PowerShell 基础</li>
@@ -665,8 +675,6 @@ Error message and password prompt
 
 <li>2. DataFrame</li>
 
-<li>2. Initialize a repository</li>
-
 <li>2. PowerShell - if</li>
 
 <li>2. PowerShell 数据类型</li>
@@ -685,8 +693,6 @@ Error message and password prompt
 
 <li>3. 列表 list</li>
 
-<li>3. Add files to git repositry</li>
-
 <li>3. dir内置函数</li>
 
 <li>3. PowerShell - for</li>
@@ -702,8 +708,6 @@ Error message and password prompt
 <li>4. 第一个Template</li>
 
 <li>4. 元组 tuple</li>
-
-<li>4. Edit files</li>
 
 <li>4. GetType()</li>
 
@@ -729,8 +733,6 @@ Error message and password prompt
 
 <li>5. Python 面向对象</li>
 
-<li>5. View commit log</li>
-
 <li>6. 集合 sets</li>
 
 <li>6. PowerShell - 正则</li>
@@ -741,19 +743,13 @@ Error message and password prompt
 
 <li>6. Python 标准库</li>
 
-<li>6. View changes with diff</li>
-
 <li>7. PowerShell 收集</li>
 
 <li>7. Python 第三方库</li>
 
 <li>7. Range</li>
 
-<li>7. Remove files from git repositry</li>
-
 <li>8. 写过的</li>
-
-<li>8. ignore files</li>
 
 <li>安装</li>
 
@@ -810,8 +806,6 @@ Error message and password prompt
 <li>分片(Shard) - 介绍</li>
 
 <li>分片设计和管理</li>
-
-<li>分支的新建与合并</li>
 
 <li>后台运行 nohup 和 &amp;</li>
 
@@ -911,6 +905,8 @@ Error message and password prompt
 
 <li>限制Oracle中SQL查询返回的记录</li>
 
+<li>虚拟环境venv</li>
+
 <li>异常</li>
 
 <li>英语</li>
@@ -920,8 +916,6 @@ Error message and password prompt
 <li>用户 组 权限</li>
 
 <li>用户管理(useradd, userdel, usermod)</li>
-
-<li>遇到冲突时的分支合并</li>
 
 <li>源码包安装</li>
 
@@ -1093,19 +1087,41 @@ Error message and password prompt
 
 <li>Get-Member(gm)</li>
 
-<li>Git</li>
+<li>git</li>
 
-<li>Git - 版本回退</li>
+<li>git 分支</li>
 
-<li>Git - 工作区和暂存区</li>
+<li>git 配置</li>
 
-<li>Git - 删除文件</li>
+<li>git 远程分支</li>
 
-<li>Git 分支</li>
+<li>git add</li>
 
-<li>git command</li>
+<li>git branch</li>
+
+<li>git checkout</li>
+
+<li>git clone</li>
 
 <li>git commit</li>
+
+<li>git fetch</li>
+
+<li>git init</li>
+
+<li>git log</li>
+
+<li>git merge</li>
+
+<li>git pull</li>
+
+<li>git push</li>
+
+<li>git remote</li>
+
+<li>git rm</li>
+
+<li>git status</li>
 
 <li>Good articles</li>
 
@@ -1197,6 +1213,8 @@ Error message and password prompt
 
 <li>json</li>
 
+<li>jupyter</li>
+
 <li>Kafka</li>
 
 <li>Kibana</li>
@@ -1218,6 +1236,8 @@ Error message and password prompt
 <li>Linux</li>
 
 <li>Linux 清空文件</li>
+
+<li>Linux 相关</li>
 
 <li>Linux 源码包安装Python3</li>
 
@@ -1631,6 +1651,45 @@ Error message and password prompt
 &amp;#95;_init&amp;#95;_.py 文件最常用的作用是标识一个文件夹是一个 python包
 
 一般内容都为空</pre>
+</div>
+<div created="20200531124003120" modified="20200822025723084" tags="git" title=".gitignore">
+<pre>一般我们总会有些文件无需纳入 Git 的管理，也不希望它们总出现在未跟踪文件列表。 通常都是些自动生成的文件，比如日志文件，或者编译过程中创建的临时文件等。 在这种情况下，我们可以创建一个名为 .gitignore
+的文件，列出要忽略的文件的模式。
+
+文件 .gitignore 的格式规范如下：
+
+* 所有空行或者以 # 开头的行都会被 Git 忽略。
+* 可以使用标准的 glob 模式匹配，它会递归地应用在整个工作区中。
+* 匹配模式可以以（/）开头防止递归。
+* 匹配模式可以以（/）结尾指定目录。
+* 要忽略指定模式以外的文件或目录，可以在模式前加上叹号（!）取反。
+
+
+所谓的 glob 模式是指 shell 所使用的简化了的正则表达式:
+
+*星号（*）匹配零个或多个任意字符
+*[abc] 匹配任何一个列在方括号中的字符 （这个例子要么匹配一个 a，要么匹配一个 b，要么匹配一个 c）
+*问号（?）只匹配一个任意字符
+*如果在方括号中使用短划线分隔两个字符， 表示所有在这两个字符范围内的都可以匹配（比如 [0-9] 表示匹*配所有 0 到 9 的数字）
+*使用两个星号（**）表示匹配任意中间目录，比如 a/**/z 可以匹配 a/z 、 a/b/z 或 a/b/c/z 等
+
+
+```sh
+# 忽略所有的 .a 文件
+*.a
+
+# 只忽略当前目录下的 TODO 文件，而不忽略 subdir/TODO
+/TODO
+
+# 忽略任何目录下名为 build 的文件夹
+build/
+
+# 忽略 doc/notes.txt，但不忽略 doc/server/arch.txt
+doc/*.txt
+
+# 忽略 doc/ 目录及其所有子目录下的 .pdf 文件
+doc/**/*.pdf
+```</pre>
 </div>
 <div created="20200205083757657" modified="20200226030809814" tags="[[用户 组 权限]]" title="/etc/passwd" tmap.id="bf7cf39d-d71c-41cf-8716-49c8a86b03e4">
 <pre>系统使用/etc/passwd文件保存本地用户的信息.
@@ -11263,7 +11322,7 @@ long:x:500:500::/home/long:/bin/bash
 <div created="20200420141346261" modified="20200622091754661" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Info</pre>
 </div>
-<div created="20200419124733427" modified="20200811024751800" title="$:/state/tab/sidebar--595412856">
+<div created="20200419124733427" modified="20200813131634692" title="$:/state/tab/sidebar--595412856">
 <pre>TableOfContents</pre>
 </div>
 <div created="20200427150323729" modified="20200705034011225" title="$:/state/toc/TableOfContents-数据库--118161433">
@@ -11278,16 +11337,19 @@ long:x:500:500::/home/long:/bin/bash
 <div created="20200705034053247" modified="20200810100040317" title="$:/state/toc/TableOfContents-Database--118161433">
 <pre>close</pre>
 </div>
-<div created="20200707102242646" modified="20200811082000961" title="$:/state/toc/TableOfContents-ELK--118161433">
+<div created="20200707102242646" modified="20200822062214327" title="$:/state/toc/TableOfContents-ELK--118161433">
 <pre>close</pre>
 </div>
 <div created="20200516112408443" modified="20200516112408443" title="$:/state/toc/TableOfContents-GIT--118161433">
 <pre>open</pre>
 </div>
-<div created="20200516122221731" modified="20200810094951045" title="$:/state/toc/TableOfContents-Git--118161433">
+<div created="20200516122221731" modified="20200818115123717" title="$:/state/toc/TableOfContents-Git--118161433">
+<pre>open</pre>
+</div>
+<div created="20200818115146319" modified="20200822063317253" title="$:/state/toc/TableOfContents-git--118161433">
 <pre>close</pre>
 </div>
-<div created="20200421133700220" modified="20200723054418291" title="$:/state/toc/TableOfContents-HTTP--118161433">
+<div created="20200421133700220" modified="20200822062218163" title="$:/state/toc/TableOfContents-HTTP--118161433">
 <pre>close</pre>
 </div>
 <div created="20200502090437194" modified="20200811073510051" title="$:/state/toc/TableOfContents-ITRS Geneos--118161433">
@@ -11299,7 +11361,7 @@ long:x:500:500::/home/long:/bin/bash
 <div created="20200809053653247" modified="20200811073601823" title="$:/state/toc/TableOfContents-Kubenates(k8s)--118161433">
 <pre>close</pre>
 </div>
-<div created="20200419124811052" modified="20200811073515878" title="$:/state/toc/TableOfContents-Linux--118161433">
+<div created="20200419124811052" modified="20200821131207120" title="$:/state/toc/TableOfContents-Linux--118161433">
 <pre>close</pre>
 </div>
 <div created="20200501052414501" modified="20200811073548664" title="$:/state/toc/TableOfContents-Moogsoft--118161433">
@@ -11308,19 +11370,19 @@ long:x:500:500::/home/long:/bin/bash
 <div created="20200502105121063" modified="20200705034501910" title="$:/state/toc/TableOfContents-PKI (Public Key Infrastructure)--118161433">
 <pre>close</pre>
 </div>
-<div created="20200705034524014" modified="20200705034545795" title="$:/state/toc/TableOfContents-PKI--118161433">
+<div created="20200705034524014" modified="20200813041622905" title="$:/state/toc/TableOfContents-PKI--118161433">
 <pre>close</pre>
 </div>
-<div created="20200421132410148" modified="20200803144058321" title="$:/state/toc/TableOfContents-PowerShell--118161433">
+<div created="20200421132410148" modified="20200813030406655" title="$:/state/toc/TableOfContents-PowerShell--118161433">
 <pre>close</pre>
 </div>
-<div created="20200420014719672" modified="20200807083436233" title="$:/state/toc/TableOfContents-Python3--118161433">
+<div created="20200420014719672" modified="20200821133428989" title="$:/state/toc/TableOfContents-Python3--118161433">
 <pre>close</pre>
 </div>
 <div created="20200502104158862" modified="20200502105155153" title="$:/state/toc/TableOfContents-SCOM--118161433">
 <pre>open</pre>
 </div>
-<div created="20200502090637211" modified="20200806032611509" title="$:/state/toc/TableOfContents-Shell Script--118161433">
+<div created="20200502090637211" modified="20200821131210138" title="$:/state/toc/TableOfContents-Shell Script--118161433">
 <pre>close</pre>
 </div>
 <div created="20200502105333269" modified="20200705035847965" title="$:/state/toc/TableOfContents-System Center--118161433">
@@ -11389,8 +11451,20 @@ long:x:500:500::/home/long:/bin/bash
 <div created="20200711032223370" modified="20200810090852015" title="$:/state/toc/TableOfContents/ELK/Logstash-Logstash Output Plugins--118161433">
 <pre>close</pre>
 </div>
-<div created="20200601152021232" modified="20200810094904761" title="$:/state/toc/TableOfContents/Git-Git 分支--118161433">
+<div created="20200818114843148" modified="20200818114844817" title="$:/state/toc/TableOfContents/Git-8. git branch--118161433">
 <pre>close</pre>
+</div>
+<div created="20200601152021232" modified="20200818114718342" title="$:/state/toc/TableOfContents/Git-Git 分支--118161433">
+<pre>close</pre>
+</div>
+<div created="20200822034139583" modified="20200822062855003" title="$:/state/toc/TableOfContents/git-git 学习--118161433">
+<pre>open</pre>
+</div>
+<div created="20200818115058011" modified="20200818115058862" title="$:/state/toc/TableOfContents/Git-git branch--118161433">
+<pre>close</pre>
+</div>
+<div created="20200818115350191" modified="20200818115428492" title="$:/state/toc/TableOfContents/git-git branch--118161433">
+<pre>open</pre>
 </div>
 <div created="20200811073508870" modified="20200811073509493" title="$:/state/toc/TableOfContents/ITRS Geneos-Geneos License--118161433">
 <pre>close</pre>
@@ -11398,53 +11472,53 @@ long:x:500:500::/home/long:/bin/bash
 <div created="20200501092340082" modified="20200502090435023" title="$:/state/toc/TableOfContents/JavaScript-JavaScript 循环判断--118161433">
 <pre>close</pre>
 </div>
-<div created="20200427014827104" modified="20200807110705497" title="$:/state/toc/TableOfContents/Linux-打包 压缩 解压缩--118161433">
-<pre>close</pre>
+<div created="20200427014827104" modified="20200820144348802" title="$:/state/toc/TableOfContents/Linux-打包 压缩 解压缩--118161433">
+<pre>open</pre>
 </div>
-<div created="20200502090222927" modified="20200811073513846" title="$:/state/toc/TableOfContents/Linux-软件包管理--118161433">
-<pre>close</pre>
+<div created="20200502090222927" modified="20200820144359653" title="$:/state/toc/TableOfContents/Linux-软件包管理--118161433">
+<pre>open</pre>
 </div>
-<div created="20200502090228255" modified="20200809053029077" title="$:/state/toc/TableOfContents/Linux-网络--118161433">
-<pre>close</pre>
+<div created="20200502090228255" modified="20200820144400910" title="$:/state/toc/TableOfContents/Linux-网络--118161433">
+<pre>open</pre>
 </div>
-<div created="20200420070134143" modified="20200807110715554" title="$:/state/toc/TableOfContents/Linux-文件&amp;目录操作--118161433">
-<pre>close</pre>
+<div created="20200420070134143" modified="20200820144403075" title="$:/state/toc/TableOfContents/Linux-文件&amp;目录操作--118161433">
+<pre>open</pre>
 </div>
 <div created="20200420070139524" modified="20200502104954584" title="$:/state/toc/TableOfContents/Linux-文件查看编辑--118161433">
 <pre>open</pre>
 </div>
-<div created="20200420070124991" modified="20200723053308845" title="$:/state/toc/TableOfContents/Linux-文件查找--118161433">
-<pre>close</pre>
+<div created="20200420070124991" modified="20200821041255563" title="$:/state/toc/TableOfContents/Linux-文件查找--118161433">
+<pre>open</pre>
 </div>
-<div created="20200502090302734" modified="20200806032829418" title="$:/state/toc/TableOfContents/Linux-文件传输--118161433">
-<pre>close</pre>
+<div created="20200502090302734" modified="20200821041434750" title="$:/state/toc/TableOfContents/Linux-文件传输--118161433">
+<pre>open</pre>
 </div>
-<div created="20200530024350713" modified="20200809071438237" title="$:/state/toc/TableOfContents/Linux-文件内容--118161433">
-<pre>close</pre>
+<div created="20200530024350713" modified="20200821041436146" title="$:/state/toc/TableOfContents/Linux-文件内容--118161433">
+<pre>open</pre>
 </div>
 <div created="20200521093415019" modified="20200530024329611" title="$:/state/toc/TableOfContents/Linux-文件内容查看编辑--118161433">
 <pre>open</pre>
 </div>
-<div created="20200502090304154" modified="20200807110759587" title="$:/state/toc/TableOfContents/Linux-文件系统--118161433">
-<pre>close</pre>
+<div created="20200502090304154" modified="20200821041703225" title="$:/state/toc/TableOfContents/Linux-文件系统--118161433">
+<pre>open</pre>
 </div>
-<div created="20200502090307308" modified="20200809053013405" title="$:/state/toc/TableOfContents/Linux-系统管理--118161433">
-<pre>close</pre>
+<div created="20200502090307308" modified="20200821041708248" title="$:/state/toc/TableOfContents/Linux-系统管理--118161433">
+<pre>open</pre>
 </div>
-<div created="20200507133935897" modified="20200807110804058" title="$:/state/toc/TableOfContents/Linux-下载 API测试--118161433">
-<pre>close</pre>
+<div created="20200507133935897" modified="20200821041713312" title="$:/state/toc/TableOfContents/Linux-下载 API测试--118161433">
+<pre>open</pre>
 </div>
 <div created="20200502090308304" modified="20200502105058936" title="$:/state/toc/TableOfContents/Linux-下载--118161433">
 <pre>open</pre>
 </div>
-<div created="20200502090309621" modified="20200807110802924" title="$:/state/toc/TableOfContents/Linux-用户 组 权限--118161433">
-<pre>close</pre>
+<div created="20200502090309621" modified="20200821041716164" title="$:/state/toc/TableOfContents/Linux-用户 组 权限--118161433">
+<pre>open</pre>
 </div>
-<div created="20200427012418985" modified="20200807114345546" title="$:/state/toc/TableOfContents/Linux-Shell--118161433">
-<pre>close</pre>
+<div created="20200427012418985" modified="20200821045052622" title="$:/state/toc/TableOfContents/Linux-Shell--118161433">
+<pre>open</pre>
 </div>
-<div created="20200421132502198" modified="20200803143211362" title="$:/state/toc/TableOfContents/PowerShell-1. PowerShell 基础--118161433">
-<pre>close</pre>
+<div created="20200421132502198" modified="20200813022903113" title="$:/state/toc/TableOfContents/PowerShell-1. PowerShell 基础--118161433">
+<pre>open</pre>
 </div>
 <div created="20200513055911255" modified="20200803143223416" title="$:/state/toc/TableOfContents/PowerShell-2. PowerShell 数据类型--118161433">
 <pre>close</pre>
@@ -11452,37 +11526,37 @@ long:x:500:500::/home/long:/bin/bash
 <div created="20200421132504818" modified="20200803144056437" title="$:/state/toc/TableOfContents/PowerShell-3. PowerShell 循环判断--118161433">
 <pre>close</pre>
 </div>
-<div created="20200515141358420" modified="20200803144056979" title="$:/state/toc/TableOfContents/PowerShell-4. Powershell 一切皆对象--118161433">
+<div created="20200515141358420" modified="20200813022900320" title="$:/state/toc/TableOfContents/PowerShell-4. Powershell 一切皆对象--118161433">
 <pre>close</pre>
 </div>
 <div created="20200513055139008" modified="20200803144057583" title="$:/state/toc/TableOfContents/PowerShell-5. PowerShell 读写--118161433">
 <pre>close</pre>
 </div>
-<div created="20200513060059577" modified="20200803124137159" title="$:/state/toc/TableOfContents/PowerShell-6. PowerShell 技巧--118161433">
-<pre>close</pre>
+<div created="20200513060059577" modified="20200813022909342" title="$:/state/toc/TableOfContents/PowerShell-6. PowerShell 技巧--118161433">
+<pre>open</pre>
 </div>
 <div created="20200515141348788" modified="20200803124136236" title="$:/state/toc/TableOfContents/PowerShell-7. PowerShell 收集--118161433">
 <pre>close</pre>
 </div>
-<div created="20200420014721898" modified="20200807020307027" title="$:/state/toc/TableOfContents/Python3-1. Python 基础--118161433">
+<div created="20200420014721898" modified="20200821113249490" title="$:/state/toc/TableOfContents/Python3-1. Python 基础--118161433">
 <pre>close</pre>
 </div>
 <div created="20200519102112255" modified="20200519104735413" title="$:/state/toc/TableOfContents/Python3-10. Django--118161433">
 <pre>close</pre>
 </div>
-<div created="20200420014801958" modified="20200807031140411" title="$:/state/toc/TableOfContents/Python3-2. Python 数据类型--118161433">
+<div created="20200420014801958" modified="20200821133428428" title="$:/state/toc/TableOfContents/Python3-2. Python 数据类型--118161433">
 <pre>close</pre>
 </div>
 <div created="20200420014821506" modified="20200421133049819" title="$:/state/toc/TableOfContents/Python3-3. Python 标准库--118161433">
 <pre>close</pre>
 </div>
-<div created="20200421135704620" modified="20200807031139255" title="$:/state/toc/TableOfContents/Python3-3. Python 循环判断--118161433">
+<div created="20200421135704620" modified="20200821113253895" title="$:/state/toc/TableOfContents/Python3-3. Python 循环判断--118161433">
 <pre>close</pre>
 </div>
 <div created="20200421135632104" modified="20200426141043779" title="$:/state/toc/TableOfContents/Python3-4. Python 标准库--118161433">
 <pre>close</pre>
 </div>
-<div created="20200425053137813" modified="20200807083435017" title="$:/state/toc/TableOfContents/Python3-4. Python 函数--118161433">
+<div created="20200425053137813" modified="20200821072217706" title="$:/state/toc/TableOfContents/Python3-4. Python 函数--118161433">
 <pre>close</pre>
 </div>
 <div created="20200421135633338" modified="20200426115349819" title="$:/state/toc/TableOfContents/Python3-5. Python 第三方库--118161433">
@@ -11497,10 +11571,10 @@ long:x:500:500::/home/long:/bin/bash
 <div created="20200421135608927" modified="20200426141017893" title="$:/state/toc/TableOfContents/Python3-6. 写过的--118161433">
 <pre>close</pre>
 </div>
-<div created="20200427051632404" modified="20200807031143230" title="$:/state/toc/TableOfContents/Python3-6. Python 标准库--118161433">
+<div created="20200427051632404" modified="20200821070955702" title="$:/state/toc/TableOfContents/Python3-6. Python 标准库--118161433">
 <pre>close</pre>
 </div>
-<div created="20200428115107750" modified="20200807025650833" title="$:/state/toc/TableOfContents/Python3-7. Python 第三方库--118161433">
+<div created="20200428115107750" modified="20200813074109638" title="$:/state/toc/TableOfContents/Python3-7. Python 第三方库--118161433">
 <pre>close</pre>
 </div>
 <div created="20200515103958789" modified="20200803040427839" title="$:/state/toc/TableOfContents/Python3-8. 写过的--118161433">
@@ -11512,16 +11586,16 @@ long:x:500:500::/home/long:/bin/bash
 <div created="20200519105304742" modified="20200630094238487" title="$:/state/toc/TableOfContents/Python3-Django--118161433">
 <pre>close</pre>
 </div>
-<div created="20200519105318372" modified="20200630133752123" title="$:/state/toc/TableOfContents/Python3-pandas--118161433">
+<div created="20200519105318372" modified="20200820100837224" title="$:/state/toc/TableOfContents/Python3-pandas--118161433">
 <pre>close</pre>
 </div>
-<div created="20200522141855537" modified="20200522153024618" title="$:/state/toc/TableOfContents/Python3-uWSGI--118161433">
+<div created="20200522141855537" modified="20200820100834042" title="$:/state/toc/TableOfContents/Python3-uWSGI--118161433">
 <pre>close</pre>
 </div>
 <div created="20200502105152575" modified="20200502105159584" title="$:/state/toc/TableOfContents/SCOM-Install SCOM Agent--118161433">
 <pre>close</pre>
 </div>
-<div created="20200502090639579" modified="20200806024718746" title="$:/state/toc/TableOfContents/Shell Script-收集的脚本--118161433">
+<div created="20200502090639579" modified="20200821125527155" title="$:/state/toc/TableOfContents/Shell Script-收集的脚本--118161433">
 <pre>close</pre>
 </div>
 <div created="20200723061537091" modified="20200806025741101" title="$:/state/toc/TableOfContents/Shell Script-Shell Script 循环判断--118161433">
@@ -11551,7 +11625,7 @@ long:x:500:500::/home/long:/bin/bash
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20200811014208714" list="" modified="20200811081643084" title="$:/StoryList">
+<div created="20200822014205582" list="" modified="20200822063006632" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -11567,7 +11641,7 @@ long:x:500:500::/home/long:/bin/bash
         },
         &quot;$:/info/url/full&quot;: {
             &quot;title&quot;: &quot;$:/info/url/full&quot;,
-            &quot;text&quot;: &quot;file:///C:/Users/Long/Desktop/TiddlyWiki/8.10.html&quot;
+            &quot;text&quot;: &quot;file:///C:/Users/Long/Desktop/TiddlyWiki/8.21.html&quot;
         },
         &quot;$:/info/url/host&quot;: {
             &quot;title&quot;: &quot;$:/info/url/host&quot;,
@@ -11587,7 +11661,7 @@ long:x:500:500::/home/long:/bin/bash
         },
         &quot;$:/info/url/pathname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/pathname&quot;,
-            &quot;text&quot;: &quot;/C:/Users/Long/Desktop/TiddlyWiki/8.10.html&quot;
+            &quot;text&quot;: &quot;/C:/Users/Long/Desktop/TiddlyWiki/8.21.html&quot;
         },
         &quot;$:/info/url/search&quot;: {
             &quot;title&quot;: &quot;$:/info/url/search&quot;,
@@ -12559,7 +12633,7 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div author="JeremyRuston" core-version="&gt;=5.0.0" created="20200420141446000" dependents="" description="Basic theme" modified="20200420141446000" name="Vanilla" original-plugin-type="theme" original-tags="" original-title="$:/themes/tiddlywiki/vanilla" original-type="application/json" plugin-priority="0" requires-reload="no" server-url="https://tiddlywiki.com/library/v5.1.22/index.html" tags="$:/tags/RemoteAssetInfo" title="$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/themes/tiddlywiki/vanilla" type="text/vnd.tiddlywiki" version="5.1.22">
 <pre></pre>
 </div>
-<div created="20200521092827200" modified="20200809074128737" title="$:/temp/search">
+<div created="20200521092827200" modified="20200821125452261" title="$:/temp/search">
 <pre></pre>
 </div>
 <div created="20200420141445992" modified="20200420141445992" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.22/index.html" url="https://tiddlywiki.com/library/v5.1.22/index.html">
@@ -12886,60 +12960,6 @@ print(random.randrange(100))  	# 从 0-99 选取一个随机数
 ```
 
 </pre>
-</div>
-<div created="20200526053952214" modified="20200526061121184" tags="Git" title="1. Git 基础配置">
-<pre>VCS(version control system)
-
-There are 3 places that Git stores configuration information, and it depends on how widely we want these configuratons to apply.
-
-!System level configuration
-
-These are configurations that will apply to every user of this computer by default.
-
-|Linux|/etc/gitconfig|
-|Windows|Program Files\Git\etc\gitconfig|
-
-!!command
-
-```
-git config --system
-```
-
-!User level configuration
-
-These are configuratins that will apply to a single user.
-
-|Linux|~/.gitconfig|
-|Windows|$HOME\.gitconfig|
-
-!!command
-
-```
-git config --global
-```
-
-
-!Project level
-
-We can have configuration that apply only to that project.
-
-my_project/.git/config
-
-```
-git config
-```
-
-
-!设置用户, email
-```
-git config --global user.name &quot;Long Jiao&quot;
-git config --global user.email &quot;long.jiao@fil.com&quot;
-```
-
-!查看当前config
-```
-git config --list
-```</pre>
 </div>
 <div created="20200316031434963" modified="20200803143541789" tags="[[3. PowerShell 循环判断]]" title="1. PowerShell - 运算符与表达式" tmap.id="ea2329ff-9f74-4692-a8fc-27ee850e01c2">
 <pre>https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_operators?view=powershell-6
@@ -13757,28 +13777,6 @@ Nevada   NaN   2.4   2.9
 Ohio     1.5   1.7   3.6
 ```</pre>
 </div>
-<div created="20200526061554316" modified="20200526062531095" tags="Git" title="2. Initialize a repository">
-<pre># 新建文件夹
-# 打开命令行，cd到那个目录
-# git init
-
-```
-D:\&gt;cd D:\test
-
-D:\test&gt;git init
-Initialized empty Git repository in D:/test/.git/
-
-D:\test&gt;
-```
-
-完成之后可以看到D:\test下面多了一个隐藏文件夹 .git
-
-Project级别的配置存在这D:\test\.git\config
-
-If you were to delete this .git directory, Git would be removed from the project. It would no longer be tracking it. 
-
-There would be no tracking information left anywhere on your hard drive once you throw it away.</pre>
-</div>
 <div created="20200316031609395" modified="20200418083129564" tags="[[3. PowerShell 循环判断]]" title="2. PowerShell - if" tmap.id="e446862c-9d4c-43ed-8261-201a572bf1f5">
 <pre>https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_if?view=powershell-5.1
 
@@ -14282,67 +14280,6 @@ a=['a','b']
 print(''.join(a))
 ```</pre>
 </div>
-<div created="20200530131655416" modified="20200530134202662" tags="Git" title="3. Add files to git repositry">
-<pre>1. 创建 test folder
-
-2. 把test folder创建成git
-
-```
-cd test
-git init
-```
-3. 创建新文件1.txt, 2.txt
-
-4. ''git status''
-
-```
-On branch master
-
-No commits yet
-
-Untracked files:
-  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)
-        1.txt
-        2.txt
-
-nothing added to commit but untracked files present (use &quot;git add&quot; to track)
-```
-
-5. ''git add 1.txt'' 把 1.txt 添加到repository里
-
-```
-git status
------------------------------------------------------------------
-n branch master
-
-No commits yet
-
-Changes to be committed:
-  (use &quot;git rm --cached &lt;file&gt;...&quot; to unstage)
-        new file:   1.txt
-
-Untracked files:
-  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)
-        2.txt
------------------------------------------------------------------
-```
-
-如果要添加所有用 git add .
-
-6. ''git commit -m &quot;add 1.txt&quot;'', commit 1.txt
-
-
-7. ''git status''
-
-```
-On branch master
-Untracked files:
-  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)
-        2.txt
-
-nothing added to commit but untracked files present (use &quot;git add&quot; to track)
-```</pre>
-</div>
 <div created="20200719130712210" modified="20200719130951909" tags="[[5. Python 面向对象]]" title="3. dir内置函数">
 <pre>Python中对象是无所不在的，变量、数据、函数都是对象
 
@@ -14504,28 +14441,6 @@ del tup     # 删除整个元组tup
 ```python
 tup.sort()     # 排序
 ```</pre>
-</div>
-<div created="20200530134403547" modified="20200530134811945" tags="Git" title="4. Edit files">
-<pre>1. 修改1.txt
-
-2. git status
-
-```
-On branch master
-Changes not staged for commit:
-  (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)
-  (use &quot;git restore &lt;file&gt;...&quot; to discard changes in working directory)
-        modified:   1.txt
-
-no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)
-```
-
-3. git add 1.txt
-
-4. git commit 1.txt
-
-如果要删除对1.txt的修改, ''git restore 1.txt''
-</pre>
 </div>
 <div created="20200413040353736" modified="20200416052538630" tags="[[2. PowerShell 数据类型]]" title="4. GetType()">
 <pre>Gets the Type of the object
@@ -14774,8 +14689,10 @@ for key,value in dict.items():     # 都遍历
     print key,value
 ```</pre>
 </div>
-<div created="20200515012434232" modified="20200617035606803" tags="[[4. Python 函数]]" title="5. enumerate() 函数">
-<pre>enumerate() 函数用于将一个可遍历的数据对象组合为一个索引序列，同时列出数据和数据下标，一般用在 for 循环当中。
+<div created="20200515012434232" modified="20200820112608522" tags="[[4. Python 函数]]" title="5. enumerate() 函数">
+<pre>https://www.w3schools.com/python/ref_func_enumerate.asp
+
+enumerate() 函数用于将一个可遍历的数据对象组合为一个索引序列，同时列出数据和数据下标，一般用在 for 循环当中。
 
 !语法
 ```python
@@ -14922,33 +14839,6 @@ for item in rev:
 <div created="20200426115215239" modified="20200719123516321" tags="Python3" title="5. Python 面向对象">
 <pre></pre>
 </div>
-<div created="20200530131207199" modified="20200531052916828" tags="Git" title="5. View commit log">
-<pre>!View the commit log
-
-```python
-git log
-git log -n 5   # limit the number of commits it shows
-git log --since=2020-01-01
-git log --until=2020-01-01
-git log --author=&quot;Long&quot;
-git log --grep=&quot;Init&quot;
-git log --oneline
-```
-
-exmaple:
-
-```ps
-PS D:\&gt; cd D:\test
-PS D:\test&gt; git log
-commit 5aa11e0bf21b5104ef7c1cee0394c9c03f9ea812 (HEAD -&gt; master)
-Author: angryfist &lt;angryfist@163.com&gt;
-Date:   Tue May 26 14:31:56 2020 +0800
-
-    Initial commit
-PS D:\test&gt;
-```
-```</pre>
-</div>
 <div created="20200212043854597" modified="20200612030009138" tags="[[2. Python 数据类型]]" title="6. 集合 sets" tmap.id="d050c287-9247-4d47-aef4-d57e88ee5504">
 <pre>!!集合(Sets):
 集合是一个无序不重复元素的序列.
@@ -15067,43 +14957,6 @@ for item in my_iter:
 
 &lt;/div&gt;</pre>
 </div>
-<div created="20200530135400968" modified="20200530140515904" tags="Git" title="6. View changes with diff">
-<pre>1.txt 里现在有2行
-
-```
-1
-2
-```
-
-现在增加2行
-
-```
-1
-2
-3
-4
-```
-
-用 git diff 查看变化
-
-```
-diff --git a/1.txt b/1.txt
-index 7a754f4..b178657 100644
---- a/1.txt
-+++ b/1.txt
-@@ -1,2 +1,4 @@
- 1
--2
-\ No newline at end of file
-+2
-+3
-+4
-\ No newline at end of file
-
-```
-
-git diff 只显示working area里的change，如果要看staging里的change，用 git diff --staged</pre>
-</div>
 <div created="20200331031242020" modified="20200416040410804" tags="PowerShell" title="7. PowerShell 收集">
 <pre></pre>
 </div>
@@ -15137,85 +14990,12 @@ list(range(0))
 []
 ```</pre>
 </div>
-<div created="20200530140749642" modified="20200530142404922" tags="Git" title="7. Remove files from git repositry">
-<pre>现在 test 下面有3个文件
-
-```
-1
-file_to_delete1.txt
-file_to_delete2.txt
-```
-
-!方法1
-
-1. 手动删除file_to_delete1.txt
-
-2. ''git status''
-
-```
-On branch master
-Changes not staged for commit:
-  (use &quot;git add/rm &lt;file&gt;...&quot; to update what will be committed)
-  (use &quot;git restore &lt;file&gt;...&quot; to discard changes in working directory)
-        deleted:    file_to_remove1.txt
-
-no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)
-
-```
-
-3. ''git rm file_to_delete1.txt''
-
-4. ''git status''
-
-```
-On branch master
-Changes to be committed:
-  (use &quot;git restore --staged &lt;file&gt;...&quot; to unstage)
-        deleted:    file_to_remove1.txt
-```
-
-5. ''git commit -m &quot;delete&quot;''
-
-
-!方法2
-
-1. ''git rm file_to_delete2.txt''
-
-2. 这时文件已经从文件夹中被删除
-
-3. ''git status''
-
-```
-On branch master
-Changes to be committed:
-  (use &quot;git restore --staged &lt;file&gt;...&quot; to unstage)
-        deleted:    file_to_remove2.txt
-
-```
-
-4. ''git commit -m &quot;delete&quot;''</pre>
-</div>
 <div created="20200212053157083" modified="20200426141128275" tags="Python3" title="8. 写过的" tmap.id="9a883229-3ad6-4889-bee2-cdc7d7160ea1">
 <pre>&lt;div class=&quot;tc-table-of-contents&quot;&gt;
 
 &lt;&lt;toc-selective-expandable '写过的'&gt;&gt;
 
 &lt;/div&gt;</pre>
-</div>
-<div created="20200531124003120" modified="20200531143231065" tags="Git" title="8. ignore files">
-<pre>* project/.gitignore
-* list of urles to determine which files to ignore
-* Changes made to ignored files will be ignored by Git
-
-Pattern matching(regular expression)
-
-```
-*?[aeiou][0-9]
-log/*.txt
-!index.php
-# this is a comment
-assets/videos/   #ignore all files in a directory with trailing slash
-```</pre>
 </div>
 <div created="20200809053634966" modified="20200809074123110" tags="Kubenates(k8s)" title="安装">
 <pre>OS: RHEL 7.7  2CPU, 4G Memory, 30GB
@@ -15748,7 +15528,7 @@ CentOS Linux release 7.7.1908 (Core)
 select table_name,owner from all_tables order by owner,table_name
 ```</pre>
 </div>
-<div created="20200709074423088" modified="20200710085540177" tags="ELK" title="常见集群部署方式">
+<div created="20200709074423088" modified="20200822041844917" tags="ELK" title="常见集群部署方式">
 <pre>当磁盘容量无法满足需求时，增加data node，磁盘读写压力时，增加data node
 
 [img width=800 [https://i.loli.net/2020/07/09/NW1O3C8SEogwqM7.png]]
@@ -16186,148 +15966,6 @@ POST /_analyze
 
 !ES 的分片策略会尽量保证节点上的分片数大致相同
 </pre>
-</div>
-<div created="20200601150120066" modified="20200602064513034" tags="[[Git 分支]]" title="分支的新建与合并">
-<pre>master分支上已经有了几个提交。
-
-init -&gt; commit1 --&gt; commit2
-
-现在，你需要解决一个bug。 新建一个分支并同时切换到那个分支上。
-
-```
-$ git checkout -b bug_0601
-$ git log
-commit 8de3bee1d1d5ae94da5b4f32a02750c3f100b31c (HEAD -&gt; bug_0601, master)
-Author: angryfist &lt;angryfist@163.com&gt;
-Date:   Tue Jun 2 10:42:18 2020 +0800
-
-    2nd
-
-commit ecfd37ed5e62ff4e289013ab5ecc3f36f82b47ea
-Author: angryfist &lt;angryfist@163.com&gt;
-Date:   Tue Jun 2 10:42:03 2020 +0800
-
-    1st
-
-```
-
-你继续在bug_0601上工作，并提交了几个commit。在此过程中，bug_0601分支在不断的向前推进，因为你已经checkout到该分支 （也就是说，你的 HEAD 指针指向了 bug_0601分支）
-
-```
-$ git log
-commit 470661d15220e9b4738ae9b9a17fd1bceeadfff7 (HEAD -&gt; bug_0601)
-Author: angryfist &lt;angryfist@163.com&gt;
-Date:   Tue Jun 2 10:51:07 2020 +0800
-
-    4th
-
-commit db48e137797fe059a628533c31872855107b6c4c
-Author: angryfist &lt;angryfist@163.com&gt;
-Date:   Tue Jun 2 10:50:51 2020 +0800
-
-    3rd
-
-commit 8de3bee1d1d5ae94da5b4f32a02750c3f100b31c (master)
-Author: angryfist &lt;angryfist@163.com&gt;
-Date:   Tue Jun 2 10:42:18 2020 +0800
-
-    2nd
-
-commit ecfd37ed5e62ff4e289013ab5ecc3f36f82b47ea
-Author: angryfist &lt;angryfist@163.com&gt;
-Date:   Tue Jun 2 10:42:03 2020 +0800
-
-    1st
-
-```
-
-现在，你接到电话，又一个紧急的bug需要你处理。先确保你把当前bug_0601分支的所有修改先提交。然后切换回master分支。
-
-git checkout master
-
-请牢记：当你
-切换分支的时候，Git 会重置你的工作目录，使其看起来像回到了你在那个分支上最后一次提交的样子。 Git 会
-自动添加、删除、修改文件以确保此时你的工作目录和这个分支最后一次提交时的样子一模一样。
-
-接下来我们新建一个hotfix分支, 在这个分支上修复紧急问题
-
-```
-$ git chcekout -b hotfix
-$ git commit -a -m &quot;hotfix&quot;
-$ git log
-commit e4721eb15cf19a7efe884bab8b2e748aaec81b4f (HEAD -&gt; hotfix)
-Author: angryfist &lt;angryfist@163.com&gt;
-Date:   Tue Jun 2 10:57:48 2020 +0800
-
-    hotfix
-
-commit 8de3bee1d1d5ae94da5b4f32a02750c3f100b31c (master)
-Author: angryfist &lt;angryfist@163.com&gt;
-Date:   Tue Jun 2 10:42:18 2020 +0800
-
-    2nd
-
-```
-
-现在git里是这样的:
-
-```
-                                                            
-init──commit1──commit2(master)──hotfix_commit(hotfix)    
-                     └─────bug_commit────bug_commit(bug_0601)
-```
-
-现在我们确认hotfix里的修复是正确的，需要把他merge到master里
-
-```
-$ git checkout master
-$ git merge hotfix
-```
-
-现在git里是这样的:
-
-```
-init───commit1───commit2───hotfix_commit(master,hotfix)
-                    └─────bug_commit────bug_commit(bug_0601)
-
-```
-
-修复完这个hotfix之后，你准备回到之前被打断的工作中。 然而，你应该先删除 hotfix 分
-支，因为你已经不再需要它了，因为 master 分支已经指向了同一个位置
-
-```
-$ git branch -d hotfix
-Deleted branch hotfix (was e4721eb).
-```
-
-现在切换回你正在工作的分支继续你的工作。这时，
-你在 hotfix 分支上所做的工作并没有包含到bug_0601分支中。 如果你需要拉取 hotfix 所做的修改，你可以使用 git merge master 命令将 master 分支合并入 bug_0601 分支，或者你也可以等到 bug_0601 分支完成其使命，再将其合并回 master 分支。
-
-```
-$ git checkout bug_0601
-$ git commit -a -m &quot;5th&quot;
-```
-
-现在，bug_0601里的工作也完成了，我需要它merge回master分支。
-
-```
-$ git checkout master
-$ git merge bug_0601
-```
-
-这和你之前合并 hotfix 分支的时候看起来有一点不一样。 在这种情况下，你的开发历史从一个更早的地方开
-始分叉开来（diverged）。 因为，master 分支所在提交并不是 bug_0601分支所在提交的直接祖先，Git 不得不做一些额外的工作。 出现这种情况的时候，Git 会使用两个分支的末端所指的快照以及这两个分支的公共祖先做一个简单的三方合并。和之前将分支指针向前推进所不同的是，Git 将此次三方合并的结果做了一个新的快照并且自动创建一个新的提
-交指向它。 这个被称作一次合并提交，它的特别之处在于他有不止一个父提交。
-
-```
-init───commit1───commit2───hotfix_commit───────────────────after_merge(master)
-                    └─────bug_commit────bug_commit(bug_0601)─────┘
-
-```
-
-既然你的修改已经合并进来了，就不再需要 iss53 分支了。 现在你可以在任务追踪系统中关闭此项任务，并删除这个分支。
-
-$ git branch -d iss53</pre>
 </div>
 <div created="20200629061342296" modified="20200629062238087" tags="Shell" title="后台运行 nohup 和 &amp;">
 <pre>nohup ./start.sh &amp;
@@ -17118,8 +16756,8 @@ https://www.elastic.co/guide/en/elasticsearch/client/curator/5.8/index.html
 !Kibana -&gt; Management  -&gt; index Lifecycle Policies
 </pre>
 </div>
-<div created="20200205060935835" modified="20200226030809814" tags="[[用户 组 权限]]" title="特殊文件权限(SUID, SGID, SBIT)" tmap.id="d71fc09f-85b3-43b0-8498-efc09bacace6">
-<pre>!!SUID(4): 
+<div created="20200205060935835" modified="20200821114227432" tags="[[用户 组 权限]]" title="特殊文件权限(SUID, SGID, SBIT)" tmap.id="d71fc09f-85b3-43b0-8498-efc09bacace6">
+<pre>!SUID(4): 
 
 SUID是一种对二进制程序进行设置的特殊权限,让二进制程序的执行者临时拥有文件owner的权限, 特殊权限位数字为4
 
@@ -17144,11 +16782,11 @@ chmod 4755 /bin/touch
 chmod 755 /bin/touch
 ```
 
-!!SGID(2): 
+!SGID(2): 
 
 以拥有文件的组身份执行文件, 在目录中最新创建的文件将其组所有者设置为目录的组所有者，特殊权限位数字为2。
 
-!!SBIT(1) :
+!SBIT(1) :
 Sticky bit只能设置在目录上, 设置sticky bit位后，在该目录中文件只能被owner和root删除。可确保用户只能删除自己的文件，而不能删除其他用户的文件。特殊权限位数字为1。/tmp目录自带SBIT。
 
 &quot;&quot;&quot;
@@ -17611,6 +17249,37 @@ select * from
 where rownum &lt; 50
 ```</pre>
 </div>
+<div created="20200813064949218" modified="20200813091427849" tags="Python3" title="虚拟环境venv">
+<pre>https://docs.python.org/zh-cn/3.7/tutorial/venv.html
+
+https://docs.python.org/zh-cn/3.7/library/venv.html#module-venv
+
+1. 创建Virtual env
+
+```bash
+mkdir /emapi/Long
+python3 -m venv /emapi/Long/venv
+```
+
+2. 激活(activated) Virtual env
+
+```
+source /emapi/Long/venv/bin/activate
+```
+
+3. 查看/安装 package
+
+```
+pip3 list
+pip3 install ....
+```
+
+4. 退出
+
+```
+deactivate
+```</pre>
+</div>
 <div created="20200212050636929" modified="20200610132308682" tags="[[1. Python 基础]]" title="异常" tmap.id="72325335-8356-4a27-b008-4e5e54dd3958">
 <pre>!!捕获异常
 
@@ -17850,181 +17519,6 @@ usermod -G test long
 id long
 uid=500(long) gid=500(long) groups=500(long),501(test)
 ```</pre>
-</div>
-<div created="20200602040216149" modified="20200602064459276" tags="[[Git 分支]]" title="遇到冲突时的分支合并">
-<pre>```
-$ git init
-添加文件1.txt，添加内容 1st
-$ git -add .
-$ git commit -m &quot;1st&quot;
-$ git checkout -b &quot;bug1&quot;
-修改内容 1st bug1
-$ git commit -a -m &quot;1st bug1&quot;
-
-           ┌────────bug1_commit1(bug1)
-init────commit1(master)
-
-$ git checkout master
-$ git checkout -b &quot;bug2&quot;
-
-           ┌────────bug1_commit1(bug1)
-init────commit1(master)
-           └────────bug2_commit1(bug2)
-
-添加内容 2nd
-$ git commit -a -m &quot;2nd&quot;
-$ git checkout master
-$ git merege bug1
-
-           ┌────────bug1_commit1(bug1)─┐
-init────commit1──────────────────merge_bug1(master,bug1)
-           └────────bug2_commit1(bug2)
-
-$ git merege bug2
-Auto-merging 1.txt
-CONFLICT (content): Merge conflict in 1.txt
-Automatic merge failed; fix conflicts and then commit the result.
-
-因为bug2里的第一行是 1st， 但是master里的第一行是 1st bug1， 所以冲突
-```
-
-此时 Git 做了合并，但是没有自动地创建一个新的合并提交。 Git 会暂停下来，等待你去解决合并产生的冲突。
-你可以在合并冲突后的任意时刻使用 git status 命令来查看那些因包含合并冲突而处于未合并
-（unmerged）状态的文件：
-
-```
-$ git status
-On branch master
-You have unmerged paths.
-  (fix conflicts and run &quot;git commit&quot;)
-  (use &quot;git merge --abort&quot; to abort the merge)
-
-Unmerged paths:
-  (use &quot;git add &lt;file&gt;...&quot; to mark resolution)
-        both modified:   1.txt
-
-no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)
-
-```
-任何因包含合并冲突而有待解决的文件，都会以未合并状态标识出来(Unmerged paths)。
-
-这时打开文件，里面是这样的
-
-```
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-1st bug1
-=======
-1st
-2nd
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; bug2
-```
-
-这表示 HEAD 所指示的版本（也就是你的 master 分支所在的位置，因为你在运行 merge 命令的时候已经检出到了这个分支）在这个区段的上半部分（======= 的上半部分），而 bug2 分支所指示的版本在 ======= 的下半部分。 
-
-为了解决冲突，你必须选择使用由 ======= 分割的两部分中的一个，或者你也可以自行合并这些内
-容。 
-
-例如，把文件修改为下面的样子并保存
-
-```
-1st bug1
-2nd
-```
-在你解决了所有文件里的冲突之后，对每个文件使用 git add 命令来将其标记为冲突已解决。
-
-你可以再次运行 git status 来确认所有的合并冲突都已被解决：
-
-```
-$ git add 1.txt
-$ git status
-On branch master
-All conflicts fixed but you are still merging.
-  (use &quot;git commit&quot; to conclude merge)
-
-Changes to be committed:
-        modified:   1.txt
-
-```
-
-输入 git commit 来完成合并提交。
-
-```
-$ git commit -m &quot;merge&quot;
-```
-
-现在是这样，bug1和bug2都可以删除了。
-
-```
-$ git log
-commit 8e959917d0fc2030dcc27fc9413f2692c75ffe4b (HEAD -&gt; master)
-Merge: 9ef76df f7be186
-Author: angryfist &lt;angryfist@163.com&gt;
-Date:   Tue Jun 2 14:00:03 2020 +0800
-
-    merge
-
-commit f7be186a694013ebeb2259f7cd89df107cb6f49b (bug2)
-Author: angryfist &lt;angryfist@163.com&gt;
-Date:   Tue Jun 2 12:29:10 2020 +0800
-
-    2nd
-
-commit 9ef76df266f36a41e32e2e818e5c978e182ee294 (bug1)
-Author: angryfist &lt;angryfist@163.com&gt;
-Date:   Tue Jun 2 12:14:41 2020 +0800
-
-    1st bug1
-
-commit 15b3aa780be72d2ff1d06130761dabdc11e87eb0
-Author: angryfist &lt;angryfist@163.com&gt;
-Date:   Tue Jun 2 12:05:06 2020 +0800
-
-```
-
-但假如我还想接着用bug2
-
-```
-$git checkout bug2
-```
-
-这时候文件变回merge之前的状态，如果想让他和最新的同步，需要再merge一下master
-
-```
-$git merge master
-```
-
-现在bug2 和 master都是最新的数据了
-
-```
-$ git log
-commit 8e959917d0fc2030dcc27fc9413f2692c75ffe4b (HEAD -&gt; bug2, master)
-Merge: 9ef76df f7be186
-Author: angryfist &lt;angryfist@163.com&gt;
-Date:   Tue Jun 2 14:00:03 2020 +0800
-
-    merge
-
-commit f7be186a694013ebeb2259f7cd89df107cb6f49b
-Author: angryfist &lt;angryfist@163.com&gt;
-Date:   Tue Jun 2 12:29:10 2020 +0800
-
-    2nd
-
-commit 9ef76df266f36a41e32e2e818e5c978e182ee294 (bug1)
-Author: angryfist &lt;angryfist@163.com&gt;
-Date:   Tue Jun 2 12:14:41 2020 +0800
-
-    1st bug1
-
-commit 15b3aa780be72d2ff1d06130761dabdc11e87eb0
-Author: angryfist &lt;angryfist@163.com&gt;
-Date:   Tue Jun 2 12:05:06 2020 +0800
-
-    1st
-
-
-```
-</pre>
 </div>
 <div created="20200205044156432" modified="20200205052858639" tags="软件包管理" title="源码包安装" tmap.id="318ae1de-444b-4459-a58a-c7d77e28fee9">
 <pre>源码包安装依赖gcc包，所以需要先安装gcc
@@ -21387,7 +20881,7 @@ setup.kibana:
   host: &quot;mykibanahost:5601&quot;
 ```</pre>
 </div>
-<div created="20200202153516391" modified="20200214040749748" tags="文件查找" title="find" tmap.id="4a279337-4c84-40f3-a85e-ca5764644931">
+<div created="20200202153516391" modified="20200821041427848" tags="文件查找" title="find" tmap.id="4a279337-4c84-40f3-a85e-ca5764644931">
 <pre>http://man7.org/linux/man-pages/man1/find.1.html
 
 find命令用来在指定目录下查找文件
@@ -21399,7 +20893,8 @@ find命令用来在指定目录下查找文件
 
 
 !语法:
-```
+
+```sh
 find [查找路径] [查找条件] [操作]
 ```
 
@@ -21727,285 +21222,377 @@ Stopped  AppIDSvc           Application Identity
 Running  Appinfo            Application Information
 ```</pre>
 </div>
-<div created="20200516111813477" modified="20200602065924314" tags="TableOfContents" title="Git">
-<pre>https://learngitbranching.js.org/?locale=zh_CN
+<div created="20200516111813477" modified="20200822063311761" tags="TableOfContents" title="git">
+<pre>Pro Git 中文 - https://gitee.com/progit/
 
-https://www.liaoxuefeng.com/wiki/896043488029600
-
-https://git-scm.com/book/en/v2</pre>
+Pro Git 英文 - https://git-scm.com/book/en/v2</pre>
 </div>
-<div created="20200516135730253" modified="20200517074438672" tags="Git" title="Git - 版本回退">
-<pre>1. 原始readme.txt
+<div created="20200822034239615" modified="20200822054012133" tags="git" title="git 分支">
+<pre>Git 的分支，其实本质上仅仅是指向提交对象的可变指针。
 
-```
-line1
-line2
-```
+!分支创建
 
-2. 修改成
+建新分支只是为你创建了一个可以移动的新的指针。
 
-```
-line1 new
-line2 new
+比如，创建一个 testing 分支
+
+```sh
+git branch testing
 ```
 
-3. commit
+这会在''当前''所在的提交对象上创建一个指针。
 
-```
-git add readme.txt
-git commit -m &quot;update 2&quot;
-```
+Git 是怎么知道当前在哪一个分支上呢？ 它有一个名为 ''HEAD ''的特殊指针。指向当前所在的本地分支。
 
-4. 修改成
+你现在仍然在 master 分支上。 因为 git branch 命令仅仅 创建 一个新分支，并不会自动切换到新分支中去。
+[img width=800 [https://i.loli.net/2020/08/22/kJXWrxyzwa7T8RG.png]]
 
-```
-line1 new again
-line2 new again
-```
+!分支切换
+要切换到一个已存在的分支，你需要使用 git checkout 命令。 我们现在切换到新创建的 testing 分支
+去：
 
-5.commit
-
+```sh
+git checkout testing
 ```
-git add readme.txt
-git commit -m &quot;update 3&quot;
-```
+这样 ''HEAD'' 就指向 testing 分支了。
+[img width=800 [https://i.loli.net/2020/08/22/6KlcdxOp9vj2MJk.png]]
 
-6. 查看历史
+通常我们会在创建一个新分支后立即切换过去，这可以用 ''git checkout -b &amp;#60;newbranchname&gt;'' 一条命令搞定。
 
-```
-git log
-git log --pretty=oneline
+现在再提交一次
+
+```sh
+vim test.rb
+git commit -a -m 'made a change'
 ```
 
-7. 回退
+这时，你的 testing 分支向前移动了，但是 master 分支却没有，它仍然指向运行 git checkout 时所指的对象。
 
-|HEAD|当前版本|
-|上一个版本|HEAD^|
-|上上一个版本|HEAD^&amp;#94;|
-|往上100个版本|HEAD~10|
+现在我们切换回 master 分支。
 
-```
-git reset --hard HEAD^^
-git reset --hard &lt;commit id&gt;
+```sh
+git checkout master
 ```
 
-!总结：
+这条命令做了两件事。 一是使 HEAD 指回 master 分支，二是将工作目录恢复成 master 分支所指向的快照内
+容。 也就是说，你现在做修改的话，项目将始于一个较旧的版本。 本质上来讲，这就是忽略 testing 分支所做的修改，以便于向另一个方向进行开发。
 
-* HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭，使用命令 ''git reset --hard commit_id''。
-* 穿梭前，用 ''git log'' 可以查看提交历史，以便确定要回退到哪个版本。
-* 要重返未来，用 ''git reflog'' 查看命令历史，以便确定要回到未来的哪个版本。</pre>
+注意： 分支切换会改变你工作目录中的文件
+
+现在再做些修改并提交：
+
+```sh
+vim test.rb
+git commit -a -m 'made other changes'
+```
+
+[img width=800 [https://i.loli.net/2020/08/22/v8iCw3VJ29B4dRI.png]]
+
+现在，这个项目的提交历史已经产生了分叉。 因为刚才你创建了一个新分支，并切换过
+去进行了一些工作，随后又切换回 master 分支进行了另外一些工作。 上述两次改动针对的是不同分支：你可以在不同分支间不断地来回切换和工作，并在时机成熟时将它们合并起来。
+
+!分支合并
+
+现在需要将 hotfix 分支合并回你的 master 分支。
+[img width=800 [https://i.loli.net/2020/08/22/bEeTDdkoI8vY7rt.png]]
+
+```sh
+$ git checkout master
+$ git merge hotfix
+Updating f42c576..3a0874c
+Fast-forward
+ index.html | 2 ++
+ 1 file changed, 2 insertions(+)
+```
+
+在合并的时候，你应该注意到了“快进（fast-forward）”这个词。 由于你想要合并的分支 hotfix 所指向的提
+交 C4 是你所在的提交 C2 的直接后继， 因此 Git 会直接将指针向前移动。换句话说，当你试图合并两个分支
+时， 如果顺着一个分支走下去能够到达另一个分支，那么 Git 在合并两者的时候， 只会简单的将指针向前推进（指针右移），因为这种情况下的合并操作没有需要解决的分歧——这就叫做 “快进（fast-forward）”。
+
+[img width=800 [https://i.loli.net/2020/08/22/MDNUugc72Yk8LVv.png]]
+
+继续在 iss53 分支上的工作
+
+现在需要合并 iss53 分支到master 分支
+
+[img width=800 [https://i.loli.net/2020/08/22/AIYkV9PnGS3UaCv.png]]
+
+```sh
+$ git checkout master
+Switched to branch 'master'
+$ git merge iss53
+Merge made by the 'recursive' strategy.
+index.html | 1 +
+1 file changed, 1 insertion(+)
+```
+
+这和你之前合并 hotfix 分支的时候看起来有一点不一样。 在这种情况下，你的开发历史从一个更早的地方开
+始分叉开来（diverged）。 因为，master 分支所在提交并不是 iss53 分支所在提交的直接祖先，Git 不得不做一些额外的工作。 出现这种情况的时候，Git 会使用两个分支的末端所指的快照（C4 和 C5
+）以及这两个分支的公共祖先（C2），做一个简单的三方合并。
+
+[img width=800 [https://i.loli.net/2020/08/22/V4HEFhrSWcAJOwz.png]]
+
+和之前将分支指针向前推进所不同的是，Git 将此次三方合并的结果做了一个新的快照并且自动创建一个新的提交指向它。 这个被称作一次合并提交，它的特别之处在于他有不止一个父提交。
+
+[img width=800 [https://i.loli.net/2020/08/22/XEHwkNROftc8AsK.png]]
+
+
+请牢记，当你做这么多操作的时候，这些分支全部都存于本地。 当你新建和合并分支的时候，所有这一切都只发生在你本地的 Git 版本库中 —— 没有与服务器发生交互。</pre>
 </div>
-<div created="20200517074727862" modified="20200517075213646" tags="Git" title="Git - 工作区和暂存区">
-<pre>!工作区(Working Directory):
-
-实际目录
-
-!版本库(Repository):
-工作区隐藏目录.git
-
-Git的版本库里存了很多东西，其中最重要的就是称为stage（或者叫index）的暂存区，还有Git为我们自动创建的第一个分支master，以及指向master的一个指针叫HEAD。
-
-文件往Git版本库里添加的时候，是分两步执行的：
-
-1. 用git add把文件添加进去，实际上就是把文件修改添加到暂存区；
-
-2. 用git commit提交更改，实际上就是把暂存区的所有内容提交到当前分支。
-
-我们创建Git版本库时，Git自动为我们创建了唯一一个master分支，所以，现在，git commit就是往master分支上提交更改。</pre>
-</div>
-<div created="20200516140933410" modified="20200516141608086" tags="Git" title="Git - 删除文件">
-<pre>一般情况下，你通常直接在文件管理器中把没用的文件删了，或者用rm命令删了。
-
-这个时候，Git知道你删除了文件，因此，工作区和版本库就不一致了，''git status'' 命令会立刻告诉你哪些文件被删除了。
-
-现在你有两个选择，一是确实要从版本库中删除该文件，那就用命令git rm删掉，并且git commit：
-
-```
-git rm test.txt
-git commit -m &quot;remove readme.txt&quot;
+<div created="20200526053952214" modified="20200822062815913" tags="git" title="git 配置">
+<pre>!Configure git for the first time
+```sh
+git config --global user.name &quot;Long Jiao&quot;
+git config --global user.email &quot;long.jiao@fil.com&quot;
 ```
 
-另一种情况是删错了，因为版本库里还有呢，所以可以很轻松地把误删的文件恢复到最新版本：
-
+!Check config
+```sh
+git config --list
 ```
-git checkout -- readme.txt
+
+
+There are 3 places that Git stores configuration information, and it depends on how widely we want these configuratons to apply.
+
+!!System level
+
+These are configurations that will apply to every user of this computer by default.
+
+|Linux|/etc/gitconfig|
+|Windows|Program Files\Git\etc\gitconfig|
+
+```sh
+git config --system
+```
+
+!!User level configuration
+
+These are configuratins that will apply to a single user.
+
+|Linux|~/.gitconfig|
+|Windows|$HOME\.gitconfig|
+
+```sh
+git config --global
+```
+
+
+!!Project level
+
+We can have configuration that apply only to that project.
+
+my_project/.git/config
+
+```sh
+git config
 ```</pre>
 </div>
-<div created="20200516112751284" modified="20200601153907861" tags="Git" title="Git 分支">
-<pre>* 本质是指向提交对象的可变指针
-* Git的默认分支是master
-* master 分支会在每次提交时自动向前移动
+<div created="20200822053917066" modified="20200822062135709" tags="git" title="git 远程分支">
+<pre>你可以通过 ''git ls-remote &amp;#60;remote&gt;'' 来显式地获得远程引用的完整列表， 或者通过 ''git remote show &amp;#60;remote&gt;'' 获得远程分支的更多信息。 然而，一个更常见的做法是利用远程跟踪分支。
 
-!创建分支
-git branch &amp;#60;branch&gt;
+远程跟踪分支是远程分支状态的引用。它们是你无法移动的本地引用。一旦你进行了网络通信， Git 就会为你移动它们以精确反映远程仓库的状态。请将它们看做书签， 这样可以提醒你该分支在远程仓库中的位置就是你最后一次连接到它们的位置。
 
-创建一个branch实际是创建了一个可以移动的新的指针.
+它们以 ''&amp;#60;remote&gt;/&amp;#60;branch&gt;'' 的形式命名。 例如，如果你想要看你最后一次与远程仓库 origin 通信时
+master 分支的状态，你可以查看 origin/master 分支。 你与同事合作解决一个问题并且他们推送了一个
+iss53 分支，你可能有自己的本地 iss53 分支， 然而在服务器上的分支会以 origin/iss53 来表示。
 
-HEAD指针指向当前所在的本地分支。
+假设你的网络里有一个在 git.ourcompany.com 的 Git 服务器。 如果你从这里克隆，Git 的 clone 命令会为你自动将其命名为 origin，拉取它的所有数据， 创建一个指向它的 master 分支的指针，并且在本地将其命名为 origin/master。 Git 也会给你一个与 origin 的master 分支在指向同一个地方的本地 master 分支，这样你就有工作的基础。
 
-''1. init -&gt; commit  -&gt; commit''
+[img width=800 [https://i.loli.net/2020/08/22/M9DcIibLBoQvdr3.png]]
 
-这时，HEAD指向最新的一个commit，目前只有默认的master分支
+如果你在本地的 master 分支做了一些工作，在同一段时间内有其他人推送提交到 git.ourcompany.com
+并且更新了它的 master 分支，这就是说你们的提交历史已走向不同的方向。 即便这样，只要你保持不与
+origin 服务器连接（并拉取数据），你的 origin/master 指针就不会移动。
 
-```
-$ git log
-commit 1de68ef421dc2df74e5d1d94c7e5fd7471c9de4b (HEAD -&gt; master)
-Author: angryfist &lt;angryfist@163.com&gt;
-Date:   Mon Jun 1 23:08:56 2020 +0800
+[img width=800 [https://i.loli.net/2020/08/22/qIxdn8NkaOwLMRH.png]]
 
-    2nd
+如果要与给定的远程仓库同步数据，运行 git fetch &amp;#60;remote&gt; 命令。
+这个命令查找 “origin” 是哪一个服务器， 从中抓取本地没有的数据，并且更新本地数据库，移动 origin/master 指针到更新之后的位置。
 
-commit 69abb005eddb612d853ea560da58870eb625a502
-Author: angryfist &lt;angryfist@163.com&gt;
-Date:   Mon Jun 1 23:08:04 2020 +0800
+[img width=800 [https://i.loli.net/2020/08/22/4pOsNac8KIxiCTq.png]]
 
-    1st
+!从一个远程跟踪分支检出一个本地分支
 
+```sh
+git checkout -b serverfix origin/serverfix
 ```
 
-''2. git branch test''
 
-* 可以看到在当前的HEAD上面多了一个test指针。
-* HEAD指向master，说明当前是在master分支上。
 
-*master和test分支都对应同一个提交对象(1de68ef4)。
+这会给你一个用于工作的本地serverfix分支，并且起点位于 origin/serverfix
 
-```
-$ git branch test
-$ git log
-commit 1de68ef421dc2df74e5d1d94c7e5fd7471c9de4b (HEAD -&gt; master, test)
-Author: angryfist &lt;angryfist@163.com&gt;
-Date:   Mon Jun 1 23:08:56 2020 +0800
 
-    2nd
+!跟踪分支
 
-commit 69abb005eddb612d853ea560da58870eb625a502
-Author: angryfist &lt;angryfist@163.com&gt;
-Date:   Mon Jun 1 23:08:04 2020 +0800
+从一个远程跟踪分支检出一个本地分支会自动创建所谓的“跟踪分支”。
+跟踪分支是与远程分支有直接关系的本地分支。 如果在一个跟踪分支上输入 git pull，Git 能自动地识别去哪
+个服务器上抓取、合并到哪个分支。
 
-    1st
+当克隆一个仓库时，它通常会自动地创建一个跟踪 origin/master 的 master 分支。 然而，如果你愿意的话
+可以设置其他的跟踪分支，或是一个在其他远程仓库上的跟踪分支，又或者不跟踪 master 分支。 最简单的实例就是像之前看到的那样，运行 ''git checkout -b &amp;#60;branch&gt; &amp;#60;remote&gt;/&amp;#60;branch&gt;''。
 
+这是一个十分常用的操作所以 Git 提供了 &amp;#45;-track 快捷方式：
+
+```sh
+git checkout --track origin/serverfix
 ```
 
-!切换分支
+由于这个操作太常用了，该捷径本身还有一个捷径。 如果你尝试检出的分支不存在且刚好只有一个名字与之匹配的远程分支，那么 Git 就会为你创建一个跟踪分支：
 
-git checkout &amp;#60;branch&gt;
-
-切换到新创建的test分支，现在HEAD指向test分支。
-
-```
-$ git checkout test
-$ git log
-commit 1de68ef421dc2df74e5d1d94c7e5fd7471c9de4b (HEAD -&gt; test, master)
-Author: angryfist &lt;angryfist@163.com&gt;
-Date:   Mon Jun 1 23:08:56 2020 +0800
-
-    2nd
-
+```sh
+git checkout serverfix
 ```
 
-在test分支上修改文件，提交。
+如果想要将本地分支与远程分支设置为不同的名字，你可以轻松地使用上一个命令增加一个不同名字的本地分支：
 
+```sh
+git checkout -b sf origin/serverfix
 ```
-$ git log
-commit e262af1b94fcb8b7aba3a030462dfec222d2cfde (HEAD -&gt; test)
-Author: angryfist &lt;angryfist@163.com&gt;
-Date:   Mon Jun 1 23:25:39 2020 +0800
 
-    3rd
+现在，本地分支 sf 会自动从 origin/serverfix 拉取。
 
-commit 1de68ef421dc2df74e5d1d94c7e5fd7471c9de4b (master)
-Author: angryfist &lt;angryfist@163.com&gt;
-Date:   Mon Jun 1 23:08:56 2020 +0800
+!查看跟踪分支
+如果想要查看设置的所有跟踪分支，可以使用 git branch 的 -vv 选项
 
-    2nd
+```sh
+$ git branch -vv
+ iss53 7e424c3 [origin/iss53: ahead 2] forgot the brackets
+ master 1ae2a45 [origin/master] deploying index fix
+* serverfix f8674d9 [teamone/server-fix-good: ahead 3, behind 1] this
+should do it
+ testing 5ea463a trying something new
 ```
-可以看到test分支随着提交操作向前移动了，但是master分支没有。
 
-现在我们切换回master分支。
-
-
-```
-$ git checkout master
-$ git log
-commit 1de68ef421dc2df74e5d1d94c7e5fd7471c9de4b (HEAD -&gt; master)
-Author: angryfist &lt;angryfist@163.com&gt;
-Date:   Mon Jun 1 23:08:56 2020 +0800
-
-    2nd
-
-```
-这条命令做了2件事。
-
-# 使HEAD指回master分支
-# 把工作目录回复成master分支所指向的快照内容
-
-也就是说，你现在做修改的话，项目将始于一个较旧的版本。 本质上来讲，这就是忽略 testing 分支所做
-的修改，以便于向另一个方向进行开发。
-
-
-&lt;&lt;&lt;
-注意：分支切换回改变你工作目录中的文件，如果切换到一个比较旧的分支，你的工作目录会恢复到该分支最后一次提交的样子。
-&lt;&lt;&lt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-</pre>
+* iss53 分支正在跟踪 origin/iss53 并且 “ahead” 是 2，意味着本地有两个提交还没有推送到服务器上。 
+* master 分支正在跟踪 origin/master 分支并且是最新的。 
+* serverfix 分支正在跟踪 teamone 服务器上的 server-fix-good 分支并且领先 3 落后 1， 意味着服务器上有一次提交还没有合并入同时本地有三次提交还没有推送。 
+* testing 分支并没有跟踪任何远程分支</pre>
 </div>
-<div created="20200531045157913" modified="20200601155027811" tags="Git" title="git command">
-<pre>Document: 
+<div created="20200530131655416" modified="20200822015844026" tags="git" title="git add">
+<pre>使用命令 git add 开始跟踪一个文件。
 
-C:\Software\Git\mingw64\share\doc\git-doc
 
-|git commit -m &amp;#60;comment&gt;|Record changes to the repository|
-|git commit -a -m &amp;#60;comment&gt;|Tell the command to automatically stage files that have been modified and deleted, but new files you have not told Git about are not affected|
-|git show|check the content of latest(HEAD) commit|
-|git show &amp;#60;SHA&gt; |check the content for specific commit|
-|git branch|show you the list of branch|
+1. 创建 test folder
+
+2. 把test folder创建成git
+
+```
+cd test
+git init
+```
+3. 创建新文件1.txt, 2.txt
+
+4. ''git status''
+
+```
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)
+        1.txt
+        2.txt
+
+nothing added to commit but untracked files present (use &quot;git add&quot; to track)
+```
+
+5. ''git add 1.txt'' 把 1.txt 添加到repository里
+
+```
+git status
+-----------------------------------------------------------------
+n branch master
+
+No commits yet
+
+Changes to be committed:
+  (use &quot;git rm --cached &lt;file&gt;...&quot; to unstage)
+        new file:   1.txt
+
+Untracked files:
+  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)
+        2.txt
+-----------------------------------------------------------------
+```
+
+如果要添加所有用 ''git add .''
+
+6. ''git commit -m &quot;add 1.txt&quot;'', commit 1.txt
+
+
+7. ''git status''
+
+```
+On branch master
+Untracked files:
+  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)
+        2.txt
+
+nothing added to commit but untracked files present (use &quot;git add&quot; to track)
+```</pre>
+</div>
+<div created="20200516112751284" modified="20200822062449593" tags="git" title="git branch">
+<pre>|git branch|show you the list of branch|
 |git branch -a|list both remote-tracking and local branches|
 |git branch -D &amp;#60;branch&gt;|Delete a branch|
-|git checkout &amp;#60;branch&gt;|Switch branches or restore working tree files|
-|git checkout &amp;#60;branch&gt; -b|Create a new branch named &amp;#60;branch&gt; and Switch to it|
-|git merge &amp;#60;branch&gt;|Join two or more development histories together|
-|git config &amp;#45;-list|List all variables set in config file|
-|git log|Show commit logs|
-|git restore &amp;#60;file&gt;|discard changes in working directory|
-|git restore &amp;#45;-staged &amp;#60;file&gt;|to unstage file|
-|git revert &amp;#60;SHA&gt;|Revert some existing commits|
-|git clean -f|Remove untracked files from the working tree|
 
+如果不加任何参数运行 ''git branch''，会得到当前所有分支的一个列表：
 
-|git -remote|List the remote connections you have to other repositories|
-|git -remote -v|include the URL of each connection|
-|git push &amp;#60;remote&gt; &amp;#60;branch&gt;|update local &amp;#60;branch&gt; to remote repository|
-|git push origin master|提交到远程master|
-|git push &amp;#60;remote&gt; &amp;#45;-all|push all of your local branches to remote repository|
-|git pull origin master|远程代码下载到本地并合并，等于fetch再merge|
+```
+$ git branch
+ iss53
+* master
+ testing
+```
 
+注意 master 分支前的 * 字符：它代表现在检出的那一个分支（也就是说，当前 HEAD 指针所指向的分支）。
 
-
-
-!!The origin Remote
-When you clone a repository with git clone, it automatically creates a remote connection called origin pointing back to the cloned repository. This is useful for developers creating a local copy of a central repository, since it provides an easy way to pull upstream changes or publish local commits. This behavior is also why most Git-based projects call their central repository origin.
-
-
-!pull
-
-The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content. Merging remote upstream changes into your local repository is a common task in Git-based collaboration work flows. The git pull command is actually a combination of two other commands, git fetch followed by git merge.
 </pre>
 </div>
-<div created="20200516112344034" modified="20200531053311985" tags="Git" title="git commit">
-<pre># Make changes
+<div created="20200818115309846" modified="20200822062508824" tags="git" title="git checkout">
+<pre>|git checkout &amp;#60;branch&gt;|Switch branches or restore working tree files|
+|git checkout &amp;#60;branch&gt; -b|Create a new branch named &amp;#60;branch&gt; and Switch to it|</pre>
+</div>
+<div created="20200818115104992" modified="20200822054147834" tags="git" title="git clone">
+<pre>https://git-scm.com/docs/git-clone
+
+当你执行 git clone 命令的时候，默认配置下远程 Git 仓库中的每一个文件的每一个版本都将被拉取下来
+
+如果你使用 clone 命令克隆了一个仓库，命令会自动将其添加为远程仓库并默认以 “origin” 为简写。
+
+git clone &amp;#60;url&gt; 
+
+```sh
+git clone https://github.com/libgit2/libgit2
+```
+
+如果你想在克隆远程仓库的时候，自定义本地仓库的名字，你可以通过额外的参数指定新的目录名：
+
+```sh
+git clone https://github.com/libgit2/libgit2 mylibgit
+```
+
+
+```
+-b &lt;name&gt;
+--branch &lt;name&gt;
+
+Instead of pointing the newly created HEAD to the branch pointed to by the cloned repository’s HEAD, point to &lt;name&gt; branch instead. 
+In a non-bare repository, this is the branch that will be checked out. 
+--branch can also take tags and detaches the HEAD at that commit in the resulting repository.
+```
+
+```sh
+git clone -b Long https://xxx.git
+```</pre>
+</div>
+<div created="20200516112344034" modified="20200822062348520" tags="git" title="git commit">
+<pre>
+|git commit -m &amp;#60;comment&gt;|Record changes to the repository|
+|git commit -a -m &amp;#60;comment&gt;|Tell the command to automatically stage files that have been modified and deleted, but new files you have not told Git about are not affected|
+
+# Make changes
 # Add the changes
 # Commit changes to the repository with a message
 
@@ -22059,6 +21646,266 @@ when an admin logged out of the admin area, they
 could not login to the numbers area again.
 
 ```</pre>
+</div>
+<div created="20200818115257090" modified="20200822035249507" tags="git" title="git fetch">
+<pre>从远程仓库中获得数据，可以执行 ''git fetch &amp;#60;remote&gt;''
+
+这个命令会访问远程仓库，从中拉取所有你还没有的数据。 执行完成后，你将会拥有那个远程仓库中所有分支的引用，可以随时合并或查看。
+
+如果你使用 clone 命令克隆了一个仓库，命令会自动将其添加为远程仓库并默认以 “origin” 为简写。 所
+以，git fetch origin 会抓取克隆（或上一次抓取）后新推送的所有工作。 必须注意 git fetch 命令只会
+将数据下载到你的本地仓库——它并不会自动合并或修改你当前的工作。 当准备好时你必须手动将其合并入你的
+工作。
+
+如果你的当前分支设置了跟踪远程分支（阅读下一节和 Git 分支 了解更多信息）， 那么可以用 git pull 命令
+来自动抓取后合并该远程分支到当前分支。 这或许是个更加简单舒服的工作流程。
+
+默认情况下，git clone 命令会自动设置本地 master 分支跟踪克隆的远程仓库的 master 分支（或其它名字的默认分支）。 运行 git pull 通常会从最初克隆的服务器上抓取数据并自动尝试合并到当前所在的分支。
+</pre>
+</div>
+<div created="20200526061554316" modified="20200822062224762" tags="git" title="git init">
+<pre>https://git-scm.com/docs/git-init
+
+# 新建文件夹
+# 打开命令行，cd到那个目录
+# git init
+
+```
+D:\&gt;cd D:\test
+
+D:\test&gt;git init
+Initialized empty Git repository in D:/test/.git/
+
+D:\test&gt;
+```
+
+完成之后可以看到D:\test下面多了一个隐藏文件夹 .git
+
+Project级别的配置存在这D:\test\.git\config
+
+If you were to delete this .git directory, Git would be removed from the project. It would no longer be tracking it. 
+
+There would be no tracking information left anywhere on your hard drive once you throw it away.
+
+
+!My code is ready to be pushed
+
+```sh
+cd existing-project
+git init
+git add --all
+git commit -m &quot;initial commit&quot;
+git remote add origin &lt;http://xxx.git&gt;
+git push origin master
+```</pre>
+</div>
+<div created="20200530131207199" modified="20200818115142804" tags="git" title="git log">
+<pre>!View the commit log
+
+```python
+git log
+git log -n 5   # limit the number of commits it shows
+git log --since=2020-01-01
+git log --until=2020-01-01
+git log --author=&quot;Long&quot;
+git log --grep=&quot;Init&quot;
+git log --oneline
+```
+
+exmaple:
+
+```ps
+PS D:\&gt; cd D:\test
+PS D:\test&gt; git log
+commit 5aa11e0bf21b5104ef7c1cee0394c9c03f9ea812 (HEAD -&gt; master)
+Author: angryfist &lt;angryfist@163.com&gt;
+Date:   Tue May 26 14:31:56 2020 +0800
+
+    Initial commit
+PS D:\test&gt;
+```
+```</pre>
+</div>
+<div created="20200822062722644" modified="20200822062736416" tags="git" title="git merge">
+<pre>|git merge &amp;#60;branch&gt;|Join two or more development histories together|</pre>
+</div>
+<div created="20200818115245043" modified="20200822062639065" tags="git" title="git pull">
+<pre>|git pull origin master|远程代码下载到本地并合并，等于fetch再merge|
+
+运行 git pull 通常会从最初克隆的服务器上抓取数据并自动尝试合并到当前所在的分支。
+
+当 git fetch 命令从服务器上抓取本地没有的数据时，它并不会修改工作目录中的内容。 它只会获取数据然
+后让你自己合并。 然而，有一个命令叫作 git pull 在大多数情况下它的含义是一个 git fetch 紧接着一个
+git merge 命令。 
+
+如果有一个像之前章节中演示的设置好的跟踪分支，不管它是显式地设置还是通过 clone
+或 checkout 命令为你创建的，git pull 都会查找当前分支所跟踪的服务器与分支， 从服务器上抓取数据然
+后尝试合并入那个远程分支。
+由于 git pull 的魔法经常令人困惑所以通常单独显式地使用 fetch 与 merge 命令会更好一些。
+
+</pre>
+</div>
+<div created="20200818115227633" modified="20200822062622940" tags="git" title="git push">
+<pre>|git push &amp;#60;remote&gt; &amp;#60;branch&gt;|update local &amp;#60;branch&gt; to remote repository|
+|git push origin master|提交到远程master|
+|git push &amp;#60;remote&gt; &amp;#45;-all|push all of your local branches to remote repository|
+
+推送到远程仓库
+
+```sh
+git push &lt;remote&gt; &lt;branch&gt;
+```
+
+当你想要将 master 分支推送到 origin 服务器时（再次说明，克隆时通常会自动帮你设置好那两个名字）， 那么运行这个命令就可以将你所做的备份到服务器：
+
+```sh
+git push origin master
+```</pre>
+</div>
+<div created="20200821052517157" modified="20200822062538476" tags="git" title="git remote">
+<pre>|git -remote|List the remote connections you have to other repositories|
+|git -remote -v|include the URL of each connection|
+
+!查看远程仓库
+
+如果想查看你已经配置的远程仓库服务器，可以运行 git remote 命令。 它会列出你指定的每一个远程服务器
+的简写。 如果你已经克隆了自己的仓库，那么至少应该能看到 origin ——这是 Git 给你克隆的仓库服务器的默认名字
+
+```sh
+git remote
+```
+
+你也可以指定选项 -v，会显示需要读写远程仓库使用的 Git 保存的简写与其对应的 URL。
+
+```sh
+git remote -v
+```
+
+如果想要查看某一个远程仓库的更多信息，可以使用 git remote show &amp;#60;remote&gt; 命令
+
+```sh
+git remote show origin
+```
+
+这个命令列出了当你在特定的分支上执行 git push 会自动地推送到哪一个远程分支。 它也同样地列出了哪些
+远程分支不在你的本地，哪些远程分支已经从服务器上移除了， 还有当你执行 git pull 时哪些本地分支可以
+与它跟踪的远程分支自动合并。
+
+
+!添加远程仓库
+
+运行 git remote add  &amp;#60;shortname&gt; &amp;#60;url&gt; 添加一个新的远程 Git 仓库，同时指定一个方便
+使用的简写
+
+```sh
+$ git remote
+origin
+$ git remote add pb https://github.com/paulboone/ticgit
+$ git remote -v
+origin https://github.com/schacon/ticgit (fetch)
+origin https://github.com/schacon/ticgit (push)
+pb https://github.com/paulboone/ticgit (fetch)
+pb https://github.com/paulboone/ticgit (push)
+```
+
+现在你可以在命令行中使用字符串 pb 来代替整个 URL。 例如，如果你想拉取 Paul 的仓库中有但你没有的信
+息，可以运行 git fetch pb
+
+现在 Paul 的 master 分支可以在本地通过 pb/master 访问到——你可以将它合并到自己的某个分支中， 或者如果你想要查看它的话，可以检出一个指向该点的本地分支。</pre>
+</div>
+<div created="20200530140749642" modified="20200822032436050" tags="git" title="git rm">
+<pre>要从 Git 中移除某个文件，就必须要从已跟踪文件清单中移除（确切地说，是从暂存区域移除），然后提交。可以用 git rm 命令完成此项工作，并连带从工作目录中删除指定的文件，这样以后就不会出现在未跟踪文件清单中了。
+
+现在 test 下面有3个文件
+
+```
+1
+file_to_delete1.txt
+file_to_delete2.txt
+```
+
+!方法1
+
+1. 手动删除file_to_delete1.txt
+
+2. ''git status''
+
+```
+On branch master
+Changes not staged for commit:
+  (use &quot;git add/rm &lt;file&gt;...&quot; to update what will be committed)
+  (use &quot;git restore &lt;file&gt;...&quot; to discard changes in working directory)
+        deleted:    file_to_remove1.txt
+
+no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)
+
+```
+
+3. ''git rm file_to_delete1.txt''
+
+4. ''git status''
+
+```
+On branch master
+Changes to be committed:
+  (use &quot;git restore --staged &lt;file&gt;...&quot; to unstage)
+        deleted:    file_to_remove1.txt
+```
+
+5. ''git commit -m &quot;delete&quot;''
+
+
+!方法2
+
+1. ''git rm file_to_delete2.txt''
+
+2. 这时文件已经从文件夹中被删除
+
+3. ''git status''
+
+```
+On branch master
+Changes to be committed:
+  (use &quot;git restore --staged &lt;file&gt;...&quot; to unstage)
+        deleted:    file_to_remove2.txt
+
+```
+
+4. ''git commit -m &quot;delete&quot;''</pre>
+</div>
+<div created="20200530134403547" modified="20200822015731660" tags="git" title="git status">
+<pre>你工作目录下的每一个文件都不外乎这两种状态：
+
+*已跟踪
+*未跟踪
+
+工作目录中除已跟踪文件外的其它所有文件都属于未跟踪文件，它们既不存在于上次快照的记录中，也没有被放入暂存区。 初次克隆某个仓库的时候，工作目录中的所有文件都属于已跟踪文件，并处于未修改状态，因为 Git 刚刚检出了它们， 而你尚未编辑过它们。
+
+编辑过某些文件之后，由于自上次提交后你对它们做了修改，Git 将它们标记为已修改文件。 在工作时，你可以选择性地将这些修改过的文件放入暂存区，然后提交所有已暂存的修改，如此反复。
+
+可以用 ''git status'' 命令查看哪些文件处于什么状态。
+
+
+1. 修改1.txt
+
+2. git status
+
+```
+On branch master
+Changes not staged for commit:
+  (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)
+  (use &quot;git restore &lt;file&gt;...&quot; to discard changes in working directory)
+        modified:   1.txt
+
+no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)
+```
+
+3. git add 1.txt
+
+4. git commit 1.txt
+
+如果要删除对1.txt的修改, ''git restore 1.txt''
+</pre>
 </div>
 <div created="20200419041234123" modified="20200419041323629" tags="[[7. PowerShell 收集]]" title="Good articles">
 <pre>* https://powershellexplained.com/</pre>
@@ -23847,6 +23694,54 @@ print(type(result_dict))      # &lt;class 'dict'&gt;
 print(result_dict)            # {'jsonrpc': ‘2.0', 'result': '934bba3e4c501e30982e8ec7749e956b', 'id': 1}
 ```</pre>
 </div>
+<div created="20200813095337435" modified="20200813131619518" tags="Python3" title="jupyter">
+<pre>https://blog.csdn.net/qsmx666/article/details/105378581
+
+https://blog.csdn.net/DSTJWJW/article/details/85304390
+
+https://github.com/dunovank/jupyter-themes
+
+主题：
+
+jt -t oceans16 -f oxygen -fs 12 -T -N -cellw 80% -nfs 13 -tfs 13 -ofs 12
+
+jt -t oceans16 -f fira -fs 13 -cellw 90% -ofs 11 -dfs 11 -T
+
+
+!安装jupyter
+
+```sh
+pip3 install jupyter -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
+```
+
+su - long (不建议用root使用jupyter)
+
+启动 jupyter notebook
+
+```sh
+nohup jupyter notebook --ip=&quot;192.168.1.156&quot; --port=3181 --notebook-dir=&quot;/home/long&quot; &amp;
+```
+
+cat nohup.out
+
+```sh
+[long@lab ~]$ cat nohup.out 
+[I 20:44:28.272 NotebookApp] Serving notebooks from local directory: /home/long
+[I 20:44:28.273 NotebookApp] The Jupyter Notebook is running at:
+[I 20:44:28.273 NotebookApp] http://192.168.1.156:3181/?token=22076f808990ae7d9efd447707787e0ecfe3c39b8968a7cf
+[I 20:44:28.273 NotebookApp]  or http://127.0.0.1:3181/?token=22076f808990ae7d9efd447707787e0ecfe3c39b8968a7cf
+[I 20:44:28.273 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 20:44:28.276 NotebookApp] No web browser found: could not locate runnable browser.
+[C 20:44:28.276 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/long/.local/share/jupyter/runtime/nbserver-9005-open.html
+    Or copy and paste one of these URLs:
+        http://192.168.1.156:3181/?token=22076f808990ae7d9efd447707787e0ecfe3c39b8968a7cf
+     or http://127.0.0.1:3181/?token=22076f808990ae7d9efd447707787e0ecfe3c39b8968a7cf
+[long@lab ~]$ 
+```</pre>
+</div>
 <div created="20200305051959306" modified="20200507160107887" tags="TableOfContents" title="Kafka" tmap.id="3d1de7e2-9f7a-41c1-897e-0d1cdd1f571a">
 <pre>生产者-&gt; 数据流 -&gt; 消费者
 
@@ -24119,6 +24014,81 @@ See Monitoring for a description of the best way to monitor the licence daemon.<
 ```sh
 &gt; access.log
 ```</pre>
+</div>
+<div created="20200812130409824" modified="20200813034656060" tags="PKI" title="Linux 相关">
+<pre>!host key
+
+使用ssh第一次登录一个linux server时，Linux server会把他的公钥(host key)发过来，shell工具会提示你是否保存，以下是各工具存linux server公钥(host key)的地址:
+
+|Xshell|C:\Users\Long\Documents\NetSarang Computer\6\SECSH\HostKeys|
+|Putty|HKEY_CURRENT_USER\SoftWare\SimonTatham\PuTTY\SshHostKeys|
+
+在此后每当客户端连接Linux server时，客户端都会比对当前存的公钥和服务器返回的是否一致，如果不匹配，客户端会中断连接。
+
+这意味着如果服务器的公钥发生更改，客户端必须删除旧的公钥才能登录。
+
+
+!Key-based authentication
+
+# 在Client上建立一对密钥(公钥, 私钥)
+# 把公钥放到Server上相应用户的 $home/.ssh/authorized_keys 文件中
+# 可以进行无密码登录
+
+Server收到登录请求后，在请求用户的$home/.ssh/authorized_keys文件中寻找public key。如果有，Server会给Client发送一个message，Client收到message以后会用自己的private key进行加密然后发回给Server。Server根据Client的public key来进行解密。如果解开以后跟发出去的一样就建立连接。
+
+!!配置步骤
+
+''Client 为 Windows(Xshell)''
+
+# Xshell -&gt; 工具 -&gt; 新建用户密钥生成向导
+# 密钥类型：RSA , 密钥长度：2048  -&gt; 下一步
+# 密钥名称：id_rsa_2048 -&gt; 输入密码(可以不用） -&gt; 下一步
+# 产生的私钥文件位置: &quot;C:\Users\Long\Documents\NetSarang Computer\6\SECSH\UserKeys\id_rsa_2048.pri&quot;
+# 公钥内容可以在Xshell上查看, 工具 -&gt; 用户密钥管理者
+# 登录Client机器，执行下面的语句
+
+```sh
+cd ~
+mkdir .ssh
+chmod 700 .ssh # 必须
+cd .ssh
+touch authorized_keys
+chmod 600 authorized_keys # 必须
+vim authorized_keys
+copy 公钥内容
+```
+
+这样Xshell在登录的时候就可以选择使用public key的方式，不用再输入密码
+
+''Client 为 SecureCRT''
+
+# SecureCRT -&gt; Tools -&gt; Create Public Key -&gt; Next
+# Key type: RSA -&gt; Next
+# Passphrase(可以不用）-&gt; Next
+# Key Length in bits: 2048 -&gt; Next -&gt; Next
+# OpenSSH Key format (new) -&gt; Finish
+# 生成了2个文件 J:\Documents\Identity(私钥)， J:\Documents\Identify.pub(公钥)
+# 建了一个新文件夹 &quot;J:\Documents\SSH keys&quot;, 把这2个文件放进去，以防以后误删
+# Options -&gt; Global options -&gt; SSH2 -&gt; 修改private key位置为 &quot;J:\Documents\SSH keys\Identity&quot;
+# 右键机器 -&gt; Properties -&gt;SSH2 -&gt; 去掉password authentication 前面的勾
+# 登录client机器，执行下面的语句
+
+```sh
+cd ~
+mkdir .ssh
+chmod 700 .ssh # 必须
+cd .ssh
+touch authorized_keys
+chmod 600 authorized_keys # 必须
+vim authorized_keys
+copy 公钥内容
+```
+
+在FIL因为不管登录哪个linux server，home都是固定的，所以这个只需要配一次，以后登录所有linux机器都不需要密码了
+
+
+
+</pre>
 </div>
 <div created="20200706073019992" modified="20200706124603145" tags="Python3" title="Linux 源码包安装Python3">
 <pre>前提：
@@ -24515,15 +24485,16 @@ Result:
 The reason why Zabbix will return only the number is because 'output' here is defined by \1 referring to the first and only subgroup of interest: ([0-9]+)
 ```</pre>
 </div>
-<div created="20200310015311993" modified="20200722130630688" tags="[[6. Python 标准库]]" title="logging" tmap.id="c739f848-ce25-4ed6-83f4-c73dea46a629">
+<div created="20200310015311993" modified="20200820143929469" tags="[[6. Python 标准库]]" title="logging" tmap.id="c739f848-ce25-4ed6-83f4-c73dea46a629">
 <pre>https://docs.python.org/3/library/logging.html
 
 https://docs.python.org/3/howto/logging.html#logging-basic-tutorial
 
 https://docs.python.org/3/howto/logging-cookbook.html
 
-!日志级别
+https://www.cnblogs.com/yyds/p/6901864.html
 
+!!日志级别:
 |NOTSET|0|
 |DEBUG|10|
 |INFO|20|
@@ -24531,10 +24502,14 @@ https://docs.python.org/3/howto/logging-cookbook.html
 |ERROR|40|
 |CRITICAL|50|
 
-logging 执行时输出大于等于设置的日志级别的日志信息，如设置日志级别是 INFO，则 INFO、WARNING、ERROR、CRITICAL 级别的日志都会输出。
+当为某个应用程序指定一个日志级别后，应用程序会记录所有日志级别大于或等于指定日志级别的日志信息，而不是仅仅记录指定级别的日志信息，nginx、php等应用程序以及这里要提高的python的logging模块都是这样的。同样，logging模块也可以指定日志记录器的日志级别，只有级别大于或等于该指定日志级别的日志记录才会被输出，小于该等级的日志记录将会被丢弃
 
-!输出格式
-''日志级别''：''Logger实例名称''：''日志消息内容''
+!!默认输出格式：
+
+''级别''：''Logger实例名称''：''日志内容''
+
+!!默认输出级别：
+warning
 
 例子:
 
@@ -24550,7 +24525,7 @@ logging.info('I told you so')  # 不会输出，默认级别为warning
 WARNING:root:Watch out!
 ```
 
-!Logging to a file
+!!简单配置
 ```python
 logging.basicConfig(filename='example.log',level=logging.DEBUG)
 logging.debug('This message should go to the log file')
@@ -24566,11 +24541,11 @@ INFO:root:So should this
 WARNING:root:And this, too
 ```
 
-!logging
+!logging 模块
 
 https://docs.python.org/3/library/logging.html#module-level-functions
 
-|getLogger(//name=None//)|returns a reference to a logger instance with the specified name if it is provided, or root if not.|
+|getLogger(//name=None//)|returns a reference to a logger instance with the specified name if it is provided, ''or root if not''.|
 |logging.info(//msg//)|Logs a message with level INFO on the root logger|
 |logging.warning(//msg//)|Logs a message with level warning on the root logger|
 |logging.error(//msg//)|Logs a message with level error on the root logger|
@@ -24639,6 +24614,13 @@ INFO:So should this
 WARNING:And this, too
 ```
 
+!logging模块的四大组件
+
+|loggers|提供应用程序代码直接使用的接口|
+|handlers|用于将日志记录发送到指定的目的位置|
+|filters|提供更细粒度的日志过滤功能，用于决定哪些日志记录将会被输出（其它的日志记录将会被忽略）|
+|formatters|用于控制日志信息的最终输出格式|
+
 !loggers
 https://docs.python.org/3/library/logging.html#logger-objects
 
@@ -24666,14 +24648,15 @@ As an example scenario, an application may want to send all log messages to a lo
 This scenario requires three individual handlers where each handler is responsible for sending messages of a specific severity to a specific location.
 &quot;&quot;&quot;
 
-|logging.~StreamHandler(//stream=None//)|Returns a new instance of the ~StreamHandler class. If stream is specified, the instance will use it for logging output; otherwise, sys.stderr will be used.|
-|logging.~FileHandler(//filename, mode='a', encoding=None, delay=False//)|Returns a new instance of the ~FileHandler class. The specified file is opened and used as the stream for logging.|
+|logging.StreamHandler(//stream=None//)|Returns a new instance of the StreamHandler class. If stream is specified, the instance will use it for logging output; otherwise, sys.stderr will be used.|
+|logging.FileHandler(//filename, mode='a', encoding=None, delay=False//)|Returns a new instance of the FileHandler class. The specified file is opened and used as the stream for logging.|
+|logging.handlers.RotatingFileHandler|将日志消息发送到磁盘文件，并支持日志文件按大小切割|
+|logging.hanlders.TimedRotatingFileHandler|将日志消息发送到磁盘文件，并支持日志文件按时间切割|
+|logging.handlers.HTTPHandler|将日志消息以GET或POST的方式发送给一个HTTP服务器|
 
 
 |setLevel(//level//)|Sets the threshold for this handler to level.|
 |setFormatter(//fmt//)|Sets the Formatter for this handler to fmt.|
-
-
 
 
 !Formatters
@@ -24686,6 +24669,19 @@ Unlike the base logging. Handler class, application code may instantiate formatt
 * If there is no message format string, the default is to use the raw message. 
 * If there is no date format string, the default date format is: %Y-%m-%d %H:%M:%S
 
+Formatter类的构造方法定义如下：
+
+```
+logging.Formatter.__init__(fmt=None, datefmt=None, style='%')
+```
+
+该构造方法接收3个可选参数：
+
+&quot;&quot;&quot;python
+fmt：指定消息格式化字符串，如果不指定该参数则默认使用message的原始值
+datefmt：指定日期格式字符串，如果不指定该参数则默认使用&quot;%Y-%m-%d %H:%M:%S&quot;
+style：Python 3.2新增的参数，可取值为 '%', '{'和 '$'，如果不指定该参数则默认使用'%'
+&quot;&quot;&quot;
 
 !例子:
 ```python
@@ -25825,7 +25821,7 @@ mv /root/myfile /
 mv a.dir  b.dir   c.dir  1.txt  2.txt  -t  des.dir
 ```</pre>
 </div>
-<div created="20200226022227069" modified="20200226022803753" tags="网络" title="nc(ncat)" tmap.id="9971f047-8811-49f7-9ffa-a98bcac93e10">
+<div created="20200226022227069" modified="20200813012736359" tags="网络" title="nc(ncat)" tmap.id="9971f047-8811-49f7-9ffa-a98bcac93e10">
 <pre>http://man7.org/linux/man-pages/man1/ncat.1.html
 
 !语法:
@@ -25838,8 +25834,9 @@ ncat [options] [hostname] [port]
 |-z                  |Zero-I/O mode, report connection status only|
 
 !例子：
+
 ```bash
-nc vz 192.168.1.1 3181   # 测试端口
+nc -vz 192.168.1.1 3181   # 测试端口
 ```</pre>
 </div>
 <div created="20200207061745500" modified="20200207062624990" tags="" title="nc/netcat" tmap.id="ecc2face-3bc7-4004-afec-32d2966a527a">
